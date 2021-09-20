@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0e59dc81-37e2-4894-9d3d-2f67b3330eec" name="web01" url="http://atomday.ru">
+        <fileTransfer rootFolder="/var/www/atomday" accessType="SFTP" host="atomday.ru" port="22" sshConfigId="dc9c9a9a-6b4a-445b-9cd1-d81fc93e516a" sshConfig="root@atomday.ru:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
